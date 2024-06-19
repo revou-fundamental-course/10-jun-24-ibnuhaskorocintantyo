@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+}
+.container{
+    display: flex;
+    background: white;
+    justify-content: center;
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    border: 1px solid;
+    border-radius: 2%;
+}
+article {
+    margin: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+.konten{
+    background: none;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 8px;
+    border-radius: 8px;
+    margin: 10px;
+    max-width: 40%;
+    background-color: #4CAF50;
+}
+section {
+    margin: 10px;
+
+}
+textarea {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 205px;
+    resize: none; 
+}
+.container{
+    margin-top: 1px;
+}
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #ddd;
+}
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+.buttons button {
+    flex: 1 1 21%;
+    margin: 5px;
+}
